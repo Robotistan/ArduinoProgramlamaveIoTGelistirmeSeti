@@ -1,4 +1,4 @@
-#define SensörSol A1
+#define SensörSol A1                                                              //Sensör pinlerini ve motor pinlerini tanımlıyoruz.
 #define SensörOrta A2
 #define SensörSağ A3
 
@@ -12,22 +12,22 @@
 
 int hiz = 75;
 
-void setup() {
-
+void setup() {                                                                    
+                                                                                   //Sensör pinlerini giriş pini olarak ayarlıyoruz.
   pinMode(SensörSol,INPUT);
   pinMode(SensörOrta,INPUT);
   pinMode(SensörSağ,INPUT);
   Serial.begin(9600);
   Serial.println("Cizgi sensoru testi");
   delay(2000);
-
+                                                                                  //Motor pinlerini, çıkış pini olarak ayarlıyoruz.
   pinMode(MotorR1,OUTPUT);
   pinMode(MotorR2,OUTPUT);
   pinMode(MotorL1,OUTPUT);
   pinMode(MotorL2,OUTPUT);
 
 void loop() {
-
+                                                                                  //Sensörden dijital veri okuması yapıyoruz.
   Serial.print(digitalRead (SensörSol));
   Serial.print(",");
   Serial.print(digitalRead (SensörOrta));
@@ -35,25 +35,25 @@ void loop() {
   Serial.println(digitalRead(SensörSağ));
   delay (300);
 
-  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 0){
+  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 0){      //Eğer sadece orta sensörden veri okuyorsak, motor ileri yönde hareket eder.
     ileri();
   }
 
-  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 1){
+  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 1){      //Eğer sadece sağ sensörden veri okuyorsak, motor sağ yönde hareket eder.
     Sağ();
   }
 
-  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 0){
+  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 0){      //Eğer sadece sol sensörden veri okuyorsak, motor sol yönde hareket eder.
     Sol();
   }
 
-  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 1){
+  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 1){      //Eğer motor bütün sensörlerden veri okuyorsak, motor durur.
     Dur();
   }
 }
-
-void ileri(){
-  digitalWrite(MotorRl,HIGH); 
+                
+void ileri(){                                       //Motorun ileri yönünde hareket edebilmesi için hangi motorların çalışması gerektiğini belirliyoruz.                                                                                 
+  digitalWrite(MotorRl,HIGH);   
   digitalWrite(MotorR2,LOW); 
   analogWrite(MotorRE,hiz);
 
@@ -62,7 +62,7 @@ void ileri(){
   analogWrite(MotorLE,hiz);
 }
 
-void Sağ(){
+void Sağ(){                                         //Motorun sağ yönünde hareket edebilmesi için hangi motorların çalışması gerektiğini belirliyoruz.
   digitalWrite(MotorR1,HIGH); 
   digitalWrite(MotorR2,LOW);
   analogWrite(MotorRE,75);
@@ -72,7 +72,7 @@ void Sağ(){
   analogWrite(MotorLE,150);
 }
 
-void Sol(){
+void Sol(){                                         //Motorun sol yönünde hareket edebilmesi için hangi motorların çalışması gerektiğini belirliyoruz.
   digitalWrite(MotorR1,HIGH); 
   digitalWrite(MotorR2,LOW); 
   analogWrite(MotorRE,150);
@@ -82,7 +82,7 @@ void Sol(){
   analogWrite(MotorLE,75);
 }
 
-void Dur(){
+void Dur(){                                         //Motorun durması için motorlara hangi komutu verceğimiz belirtiyoruz.
   digitalWrite(MotorRl,HIGH); 
   digitalWrite(MotorR2,LOW);
   analogWrite(MotorRE,0);
