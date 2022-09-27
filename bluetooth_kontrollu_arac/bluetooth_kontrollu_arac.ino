@@ -1,4 +1,4 @@
-#define MotorR1 3
+#define MotorR1 3                                          // Sağ sol motorların pinleri tanımlandı.
 #define MotorR2 4
 #define MotorRE 5
 
@@ -6,10 +6,10 @@
 #define MotorL2 7
 #define MotorLE 6 
 
-int speedd =100;
-char data;
+int hiz =100;                                               // Hız değeri tam sayı cinsinden belirlendi. 
+char veri;
 
-void setup() {
+void setup() {                                              //Motor pinleri, çıkış pini olarak ayarlandır.
   pinMode(MotorR1,OUTPUT);
   pinMode(MotorR2,OUTPUT);
   pinMode(MotorRE,OUTPUT);
@@ -19,79 +19,79 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
+void loop() {                                                //Okunan veriye göre aracın istenilen yönde ilerlemesi için hangi motorların çalışması gerektiği belirlenir.   
 
   while(Serial.available()) {
-    data=Serial.read();
+    veri=Serial.read();
 
-  switch(data) {
-    case 'W'://forward
+  switch(veri) {
+    case 'W': //İleri
   {
     digitalWrite(MotorRl,HIGH); 
     digitalWrite(MotorR2,LOW); 
-    analogWrite(MotorRE,speedd); 
+    analogWrite(MotorRE,hiz); 
 
     digitalWrite(MotorL1,HIGH); 
     digitalWrite(MotorL2,LOW);
-    analogWrite(MotorLE,speedd);
+    analogWrite(MotorLE,hiz);
     break; 
   }
-  case 'S'://backward
+  case 'S': //Geri
   {
     digitalWrite(MotorRl,LOW); 
     digitalWrite(MotorR2,HIGH); 
-    analogWrite(MotorRE,speedd); 
+    analogWrite(MotorRE,hiz); 
 
     digitalWrite(MotorL1,LOW); 
     digitalWrite(MotorL2,HIGH);
-    analogWrite(MotorLE,speedd);
+    analogWrite(MotorLE,hiz);
     break; 
   }
-  case 'A'://Left
+  case 'A': //Sol
   {
     digitalWrite(MotorRl,HIGH); 
     digitalWrite(MotorR2,LOW); 
-    analogWrite(MotorRE,speedd); 
+    analogWrite(MotorRE,hiz); 
 
     digitalWrite(MotorL1,LOW); 
     digitalWrite(MotorL2,LOW);
-    analogWrite(MotorLE,speedd);
+    analogWrite(MotorLE,hiz);
     break; 
   }
-  case 'D'://Right
+  case 'D': //Sağ
   {
     digitalWrite(MotorRl,LOW); 
     digitalWrite(MotorR2,LOW); 
-    analogWrite(MotorRE,speedd); 
+    analogWrite(MotorRE,hiz); 
 
     digitalWrite(MotorL1,HIGH); 
     digitalWrite(MotorL2,LOW);
-    analogWrite(MotorLE,speedd);
+    analogWrite(MotorLE,hiz);
     break; 
   }
-  case 'K'://speed up
+  case 'K': //hızlanma
   {
-    if(speedd<255) {
-      speedd=speedd+5;
+    if(hiz<255) {
+      hiz=hiz+5;
       break;
     }
   }
-  case 'L'://speed reduction
+  case 'L': //yavaşlama
   {
-    if(speedd>0) {
-      speedd=speedd-5;
+    if(hiz>0) {
+      hiz=hiz-5;
       break;
       }
   }
-  case 'O'://stop
+  case 'O'://Dur
   {
     digitalWrite(MotorRl,LOW); 
     digitalWrite(MotorR2,LOW); 
-    analogWrite(MotorRE,speedd);
+    analogWrite(MotorRE,hiz);
 
     digitalWrite(MotorL1,LOW); 
     digitalWrite(MotorL2,LOW);
-    analogWrite(MotorLE,speedd);
+    analogWrite(MotorLE,hiz);
     break;
    }
   }

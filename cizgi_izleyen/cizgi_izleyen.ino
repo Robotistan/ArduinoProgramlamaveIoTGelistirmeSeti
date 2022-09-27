@@ -1,6 +1,6 @@
-#define SensorLeft A1
-#define SensorMid A2
-#define SensorRight A3
+#define SensörSol A1
+#define SensörOrta A2
+#define SensörSağ A3
 
 #define MotorR1 4
 #define MotorR2 5
@@ -10,15 +10,15 @@
 #define MotorL2 6
 #define MotorLE 10 
 
-int speedd = 75;
+int hiz = 75;
 
 void setup() {
 
-  pinMode(SensorLeft,INPUT);
-  pinMode(SensorMid,INPUT);
-  pinMode(SensorRight,INPUT);
+  pinMode(SensörSol,INPUT);
+  pinMode(SensörOrta,INPUT);
+  pinMode(SensörSağ,INPUT);
   Serial.begin(9600);
-  Serial.println("Line sensor test");
+  Serial.println("Cizgi sensoru testi");
   delay(2000);
 
   pinMode(MotorR1,OUTPUT);
@@ -28,41 +28,41 @@ void setup() {
 
 void loop() {
 
-  Serial.print(digitalRead (SensorLeft));
+  Serial.print(digitalRead (SensörSol));
   Serial.print(",");
-  Serial.print(digitalRead (SensorMid));
+  Serial.print(digitalRead (SensörOrta));
   Serial.print (",");
-  Serial.println(digitalRead(SensorRight));
+  Serial.println(digitalRead(SensörSağ));
   delay (300);
 
-  if(digitalRead(SensorLeft) == 0 && digitalRead(SensorMid) == 1 & digitalRead(sensorRight) == 0){
-    Forward();
+  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 0){
+    ileri();
   }
 
-  if(digitalRead(SensorLeft) == 0 && digitalRead(SensorMid) == 0 & digitalRead(sensorRight) == 1){
-    Right();
+  if(digitalRead(SensörSol) == 0 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 1){
+    Sağ();
   }
 
-  if(digitalRead(SensorLeft) == 1 && digitalRead(SensorMid) == 0 & digitalRead(sensorRight) == 0){
-    Left();
+  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 0 & digitalRead(SensörSağ) == 0){
+    Sol();
   }
 
-  if(digitalRead(SensorLeft) == 1 && digitalRead(SensorMid) == 1 & digitalRead(sensorRight) == 1){
-    Stop();
+  if(digitalRead(SensörSol) == 1 && digitalRead(SensörOrta) == 1 & digitalRead(SensörSağ) == 1){
+    Dur();
   }
 }
 
-void Forward(){
+void ileri(){
   digitalWrite(MotorRl,HIGH); 
   digitalWrite(MotorR2,LOW); 
-  analogWrite(MotorRE,speedd);
+  analogWrite(MotorRE,hiz);
 
   digitalWrite(MotorL1,HIGH); 
   digitalWrite(MotorL2,LOW);
-  analogWrite(MotorLE,speedd);
+  analogWrite(MotorLE,hiz);
 }
 
-void Right(){
+void Sağ(){
   digitalWrite(MotorR1,HIGH); 
   digitalWrite(MotorR2,LOW);
   analogWrite(MotorRE,75);
@@ -72,7 +72,7 @@ void Right(){
   analogWrite(MotorLE,150);
 }
 
-void Left(){
+void Sol(){
   digitalWrite(MotorR1,HIGH); 
   digitalWrite(MotorR2,LOW); 
   analogWrite(MotorRE,150);
@@ -82,7 +82,7 @@ void Left(){
   analogWrite(MotorLE,75);
 }
 
-void Stop(){
+void Dur(){
   digitalWrite(MotorRl,HIGH); 
   digitalWrite(MotorR2,LOW);
   analogWrite(MotorRE,0);
