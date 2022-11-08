@@ -1,12 +1,13 @@
-                                                              //Notalara karşılık gelen frekanslar.
-#define dok  264                                              // kalın do. do komutu ile karışmasın diye dok yazıldı. 
+                                                                                                                            
+                                                               //Notalara karşılık gelen frekanslar belirtilmiştir
+#define dok  264                                              // kalın do. do komutu ile karışmasın diye dok yazıldı
 #define re   297                                                
 #define mi   330
 #define fa   352
 #define sol  396
 #define la   440
 #define si   495
-#define doi  528                                              // ince do.
+#define doi  528                                              // ince do
                                                               //butonların bağlı olduğu pinleri belirliyoruz
 const int Dokbuton = 2;
 const int Rebuton = 3;
@@ -49,9 +50,9 @@ void loop() {
     buttonDoidurum = digitalRead(Doibuton);
                                                               //Butonlar basılırda buzzerdan istenen notalar çıkacaktır
       if (buttonDokdurum == HIGH) {
-           tone(10, dok, 100);                                //Burada 10; buzzerin bağlı olduğu pini. 100; çalma süresini ifade ediyor.
-       }                                                      //dok; sesin değerini.
-      if (buttonRedurum == HIGH) {                            //100; çalma süresini ifade ediyor.
+           tone(10, dok, 100);                                //Burada 10; buzzerin bağlı olduğu pini. 100; çalma süresini ifade ediyor
+       }                                                      //dok; sesin değerini
+      if (buttonRedurum == HIGH) {                            //100; çalma süresini ifade ediyor
            tone(10, re, 100);
        }
       if (buttonMidurum == HIGH) {
