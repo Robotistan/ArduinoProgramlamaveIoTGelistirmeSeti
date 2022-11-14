@@ -1,5 +1,4 @@
-## Activities From Easy To Difficult
-
+## Kolaydan Zora Projeler
 ##### [- Led ile Arduino](https://github.com/Robotistan/ArduinoProgramlamaveIoTGelistirmeSeti/tree/main/Projeler/Robotistan%20Projeler/Part-%201/LED%20with%20Arduino "Heading Link")
 ##### [- Trafik Işıkları](https://github.com/Robotistan/ArduinoProgramlamaveIoTGelistirmeSeti/tree/main/Projeler/Robotistan%20Projeler/Part-%201/Traffic%20Lights "Heading Link")
 ##### [- Buzzer ile Notalar](https://github.com/Robotistan/ArduinoProgramlamaveIoTGelistirmeSeti/tree/main/Projeler/Robotistan%20Projeler/Part-%202/Notes%20with%20Buzzer "Heading Link")
