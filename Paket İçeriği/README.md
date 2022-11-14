@@ -1,91 +1,103 @@
-## Package Content
-- [Robotistan UNO with Headers for Arduino with USB Cable (CH340 Clone)](https://shop.robotistan.com/products/robotistan-uno-with-headers-for-arduino-with-usb-cable?_pos=6&_sid=e7b5ef6d2&_ss=r "Heading Link")
-- [Standart Size Breadboard - 830 Holes](https://shop.robotistan.com/products/standart-size-breadboard-830-holes?_pos=1&_sid=1a9bde5e9&_ss=r "Heading Link")
-- [9 V Battery Barrel Converter Cable - 9 V to DC Barrel Adapter
-](https://shop.robotistan.com/products/9-v-battery-barrel-converter-cable-9-v-to-dc-barrel-adapter?_pos=1&_sid=d491b5217&_ss=r "Heading Link")
-- [Jumper Wires Standards-26 AWG-40 Pack](https://shop.robotistan.com/products/jumper-wires-standards-26-awg-40-pack?_pos=1&_sid=459146c22&_ss=r&variant=41569340358807 "Heading Link")
-- [Jumper Wires Standards-26 AWG-40 Pack](https://shop.robotistan.com/products/jumper-wires-standards-26-awg-40-pack?_pos=1&_sid=79b42e446&_ss=r&variant=41569340293271 "Heading Link")
-- [Jumper Wires Standards-26 AWG-40 Pack](https://shop.robotistan.com/products/jumper-wires-standards-26-awg-40-pack?_pos=1&_sid=07b57fd09&_ss=r&variant=41569340260503 "Heading Link")
-- [DS3231 Precise RTC and 24C32 Memory Card](https://shop.robotistan.com/products/ds3231-precise-rtc-and-24c32-memory-card?variant=41256305918103 "Heading Link")
-- [Sound Sensor Card (4-pin)](https://shop.robotistan.com/products/sound-sensor-4pin?_pos=1&_sid=98b27cc56&_ss=r "Heading Link")
-- [RC522 RFID Kit-Mifare RC522 RF IC Card Sensor Module + S50 Blank Card + Key Ring for Arduino Raspberry Pi](https://shop.robotistan.com/products/rc522-rfid-nfc-kit-rc522-rfid-nfc-module-card-and-keyring-kit?_pos=1&_sid=c6e86b2cd&_ss=r "Heading Link")
-- [MPU6050 6-axis Accelerometer Gyroscope Sensor Module](https://shop.robotistan.com/products/mpu6050-6-axis-accelerometer-gyroscope-sensor-module?_pos=1&_sid=dbe2384d6&_ss=r "Heading Link")
-- [2 Axis Joystick Module with Push Button](https://shop.robotistan.com/products/2-axis-joystick-module-w-push-button?_pos=1&_sid=22f05d7f3&_ss=r "Heading Link")
-- [DHT11 Temperature and Humidity Sensor Breakout Module](https://shop.robotistan.com/products/dht11-temperature-humidity-sensor-breakout?_pos=1&_sid=2a2bcc4a8&_ss=r "Heading Link")
-- [Soil Moisture Sensor for Arduino](https://shop.robotistan.com/products/soil-moisture-sensor-for-arduino?_pos=1&_sid=fc6504242&_ss=r "Heading Link")
-- [Water Level / Rain Sensor](https://shop.robotistan.com/products/water-level-sensor?_pos=1&_sid=6531784da&_ss=r "Heading Link")
-- [HC-SR04 Ultrasonic Distance Sensor Board](https://shop.robotistan.com/products/hcsr04-ultrasonic-sensor-board?_pos=1&_sid=6c78d6a5a&_ss=r "Heading Link")
-- [ESP8266 Wifi Serial Transceiver Module](https://shop.robotistan.com/products/esp8266-wifi-serial-transceiver-module?_pos=1&_sid=a8e03827b&_ss=r "Heading Link")
-- [28 BYJ-48 Geared Stepper Motor and ULN2003A Stepper Motor Driver Board](https://shop.robotistan.com/products/28-byj-48-geared-stepper-motor-and-uln2003a-stepper-motor-driver-board?_pos=1&_sid=47298e3c8&_ss=r "Heading Link")
-- [Flammable Gas and Smoke Sensor Board - MQ-2](https://shop.robotistan.com/products/flammable-gas-mq2?_pos=1&_sid=dc10c446e&_ss=r "Heading Link")
-- [IR Receiver Module Wireless Remote Control Kit](https://shop.robotistan.com/products/ir-receiver-module-wireless-remote-control-kit?_pos=1&_sid=24502e553&_ss=r "Heading Link")
-- [HC05 Bluetooth Serial Module](https://shop.robotistan.com/products/hc05-serial-port-bluetooth-module?_pos=1&_sid=38c466641&_ss=r "Heading Link")
-- [HC-SR501 Adjustable PIR Motion Detector IR Sensor Board](https://shop.robotistan.com/products/hc-sr501-adjustable-pir-motion-detector-ir-sensor-board?_pos=1&_sid=97877d057&_ss=r "Heading Link")
-- [L298N Dual Motor Driver Board with Voltage Regulator](https://shop.robotistan.com/products/l298n-dual-motor-driver-board-with-voltage-regulatorred-pcb?_pos=1&_sid=22c77d13a&_ss=r "Heading Link")
-- [Tower Pro SG90 RC Mini Servo Motor](https://shop.robotistan.com/products/tower-pro-sg90-rc-mini-servo-motor?_pos=1&_sid=77f6786ad&_ss=r "Heading Link")
-- [Alligater Clip Cable Package - Insulated Test Lead - 10 Pcs](https://shop.robotistan.com/products/alligater-clip-cable-package-insulated-test-lead-10-pcs?_pos=1&_sid=7ca12d087&_ss=r "Heading Link")
-- [HC-SR501 Adjustable PIR Motion Detector IR Sensor Board](https://shop.robotistan.com/products/hc-sr501-adjustable-pir-motion-detector-ir-sensor-board?_pos=1&_sid=ab1378db8&_ss=r "Heading Link")
-- Klemens Çıkışlı DC Female Barrel Jack - DC Female Barrel to Wire Jack
--  A to B USB Cable/ Printer Cable 
--  GePro UM-85, 12V 1A Adapter
--  9V Battery Head
--  Buzzer
--  Sound Card
--  SD Card Module 
--  Sandisk 16 GB MicroSD 80 MB/s Class10 Memory Card - With Card Adapter 
--  5mm Transparent White LED Package 
--  5mm Blue LED Package 
--  5mm Green LED Package
--  5mm Yellow LED Package
--  5mm Red LED Package
--  5mm Transparent RGB LED 
--  74HC595 Integrated
--  14mm 7 Segment Display - Cathode 
--  20mm Anode Red 7 Segment Display - KPS-81 02BSRND
--  4-Pin Push Button - Black (6x6x5 mm)
--  1/4 W 4.7K Resistor Pack
--  1/4 W 100R Resistor Pack 
--  1/4 W 220R Resistor Pack
--  1/4 W 330R Resistor Pack
--  1/4 W 470R Resistor Pack 
--  1/4 W 560R Resistor Pack
--  1/4 W 1K Resistor Pack 
--  1/4 W 10K Resistor Pack
--  1/4 W 1M Resistor Pack
--  10K Potentiometer - WH148
--  BC547 - TO92 Transistor 
--  8 Ohm 5W Speaker
--  5mm LDR
--  Tilt Sensor Card
--  LM35DZ	
--  3x4 Keypad	
--  Fire Sensor Card (Flame Sensor) 
--  Mini Magnetic Hall Effect Sensor Board
--  Ultrasonic Sensor Mounting Apparatus Type C 
--  Slot Color Detection Sensor - TCS34725 
--  TTP223 1 Way Touch Switch
--  2x16 No Light Alphanumeric Character LCD - HY-1602F-001
--  4x20 LCD Display
--  DC Motor and Propeller (3-6V)
--  100 nF Ceramic Capacitor Pack 
--  100uF 16V Capacitor 
--  100 pF Ceramic Capacitor Pack
--  4.7uF 16V Capacitor
--  330uF 16V Electrolyte Capacitor 
--  470 uF 16 V Capacitor
--  47uF 25V Capacitor
--  1N4007 - 1000 V 1 A Axial Type Diode Package
--  Plexi Robot Arm - Arduino Compatible 
--  2WD Multi-Purpose Mobile Robot Platform 
--  TCRT5000 Infrared Sensor
--  Magnetic Door Alarm Sensor 
--  12x12cm Perforated (Copper) Pertinax Single Sided
--  1N4001 - 50 V 1 A Axial Type Diode Package
--  Reed Relay Board 4 Pin 
--  GP Recyko 9V 200mAh Rechargeable Battery 
--  Organized Box with 14 Compartments 
--  1/4W 68R Resistor Pack 
--  Passive Buzzer
+## Paket İçeriği
+
+
+![image](https://user-images.githubusercontent.com/111511331/201673498-f9290661-f865-4d18-a79b-361f66a75b42.png)
+
+
+*  [Arduino UNO R3](https://www.robotistan.com/arduino-uno-r3-klon "Heading Link")
+*  [Klemens Çıkışlı DC Female Barrel Jack - DC Female Barrel to Wire Jack](https://www.robotistan.com/klemens-cikisli-dc-female-barrel-jack-dc-female-barrel-to-wire-jack "Heading Link")
+*  [A'dan B'ye USB Kablosu/ Yazıcı Kablosu](https://www.robotistan.com/adan-bye-usb-kablosu-yazici-kablosu-1 "Heading Link")	
+*  [GePro UM-85, 12 V 1 A Adaptör](https://www.robotistan.com/gepro-um-85 "Heading Link")	
+*  [Breadboard](https://www.robotistan.com/breadboard-2 "Heading Link")	
+*  [9 V Pil Barrel Dönüştürücü Kablo - 9 V to DC Barrel Adapter](https://www.robotistan.com/9v-dc-barrel-donusturucu-kablo-9v-to-dc-barrel-adapter "Heading Link")	
+*  [9 V Pil Başlığı](https://www.robotistan.com/9v-pil-basligi "Heading Link")
+*  [30 cm 40 Pin Ayrılabilen Erkek-Erkek M-M Jumper Kablo-300 mm](https://www.robotistan.com/30cm-40-pin-ayrilabilen-erkek-erkek-m-m-jumper-kablo-300-mm "Heading Link")	
+*  [40 Pin Ayrılabilen Dişi-Dişi F-F Jumper Kablo-200 mm](https://www.robotistan.com/40-pin-ayrilabilen-disi-disi-f-f-jumper-kablo-200-mm "Heading Link")	
+*  [40 Pin Ayrılabilen Dişi-Erkek M-F Jumper Kablo-200 mm](https://www.robotistan.com/40-pin-ayrilabilen-disi-erkek-m-f-jumper-kablo-200-mm "Heading Link")
+*  [Buzzer](https://www.robotistan.com/buzzer "Heading Link")
+*  [Ses Kartı - Buzzer Kartı](https://www.robotistan.com/ses-karti-buzzer-karti "Heading Link")	
+*  [DS3231 Hassas RTC ve 24C32 EEPROM Modülü](https://www.robotistan.com/ds3231-hassas-rtc-ve-24c32-hafiza-karti "Heading Link")	
+*  [SD Kart Modülü](https://www.robotistan.com/sd-kart-modulu-sd-card-module "Heading Link")	
+*  [Sandisk 16 GB MicroSD 80 MB/s Class10 Hafıza Kartı - Kart Adaptörlü](https://www.robotistan.com/micro-sd-kart-adaptoru "Heading Link")	
+*  [5 mm Şeffaf Beyaz Led Paketi - 10 Adet](https://www.robotistan.com/5mm-seffaf-beyaz-led-paketi-10-adet "Heading Link")
+*  [5 mm Mavi Led Paketi - 10 Adet](https://www.robotistan.com/5mm-sari-led-paketi-10-adet-6355 "Heading Link")
+*  [5 mm Yeşil Led Paketi - 10 Adet](https://www.robotistan.com/5mm-yesil-led-paketi-10-adet "Heading Link")
+*  [5 mm Sarı Led Paketi - 10 Adet](https://www.robotistan.com/5mm-sari-led-paketi-10-adet "Heading Link")
+*  [5 mm Kırmızı Led Paketi - 10 Adet](https://www.robotistan.com/5mm-kirmizi-led-paketi-10-adet "Heading Link")
+*  [5 mm Şeffaf RGB Led](https://www.robotistan.com/5mm-seffaf-rgb-led "Heading Link")	
+*  [74HC595 Entegre](https://www.robotistan.com/74hc595 "Heading Link")
+*  [14 mm 7 Segment Display - Katot](https://www.robotistan.com/14mm-7-segment-display-katot "Heading Link")	
+*  [20 mm Anot Kırmızı 7 Segment Display - KPS-81 02BSRND](https://www.robotistan.com/20mm-anot-kirmizi-7-segment-display-kps-81-02bsrnd "Heading Link")	
+*  [4 Pinli Push Buton - Siyah (6x6x5 mm)](https://www.robotistan.com/4-pinli-push-buton-siyah-6x6x5mm "Heading Link")
+*  [1/4 W 68R Direnç Paketi - 5 Adet](https://www.robotistan.com/14w-68r-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 4.7K Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-4k7-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 100 R Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-100r-direnc-paketi-10-adet "Heading Link")	
+*  [1/4 W 220 R Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-220r-direnc-paketi-10-adet "Heading Link")	
+*  [1/4 W 330 R Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-330r-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 470 R Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-470r-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 560 R Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-560r-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 1K Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-1k-direnc-paketi-10-adet "Heading Link")	
+*  [1/4 W 10K Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-10k-direnc-paketi-10-adet "Heading Link")
+*  [1/4 W 1M Direnç Paketi - 10 Adet](https://www.robotistan.com/14w-1m-direnc-paketi-10-adet "Heading Link")	
+*  [10K Potansiyometre - WH148](https://www.robotistan.com/10k-potansiyometre-ayarli-direnc "Heading Link")
+*  [BC547 - TO92 Transistör](https://www.robotistan.com/bc547-to92 "Heading Link")
+*  [8 Ohm 5W Hoparlör](https://www.robotistan.com/8-ohm-5w-hoparlor "Heading Link")
+*  [5 mm LDR](https://www.robotistan.com/5mm-ldr "Heading Link")	
+*  [Tilt Sensör Kartı (Eğim Sensörü - Dikey)](https://www.robotistan.com/tilt-sensor-karti-egim-sensoru-dikey "Heading Link")
+*  [Ses Sensörü Kartı (4 pinli)](https://www.robotistan.com/ses-sensoru-karti-4-pinli "Heading Link")	
+*  [LM35DZ](https://www.robotistan.com/lm35dz-sicaklik-sensoru-china "Heading Link")	
+*  [RC522 RFID NFC Modülü, Kart ve Anahtarlık Kiti (13.56 MHz)](https://www.robotistan.com/rc522-rfid-nfc-kiti-rc522-rfid-nfc-modulu-kart-ve-anahtarlik-kiti-1356 "Heading Link")
+*  [MPU6050 6 Eksen İvme ve Gyro Sensörü - GY-521](https://www.robotistan.com/mpu6050-6-eksen-ivme-ve-gyro-sensoru-6-dof-3-axis-accelerometer-and-gyros "Heading Link")
+*  [2 Eksenli Joystick Kartı](https://www.robotistan.com/2-eksenli-joystick-karti "Heading Link")
+*  [3x4 Membran Tuş Takımı - Keypad](https://www.robotistan.com/keypad-3x4 "Heading Link")
+*  [DHT11 Isı ve Nem Sensörü Kart](https://www.robotistan.com/dht11-isi-ve-nem-sensoru-kart "Heading Link")
+*  [Toprak Nemi Algılama Sensörü](https://www.robotistan.com/toprak-nemi-algilama-sensoru "Heading Link")
+*  [Su Seviyesi / Yağmur Sensörü - Water Level / Rain Sensor](https://www.robotistan.com/su-seviyesi-yagmur-sensoru-water-level-rain-sensor "Heading Link")
+*  [Ateş Algılayıcı Sensör Kartı (Flame Sensor)](https://www.robotistan.com/ates-algilayici-sensor-karti-flame-sensor "Heading Link")	
+*  [Mini Manyetik Hall Effect Sensör Kartı](https://www.robotistan.com/mini-manyetik-hall-effect-sensor-karti "Heading Link")	
+*  [HC-SR04 Ultrasonik Mesafe Sensörü](https://www.robotistan.com/hc-sr04-ultrasonik-mesafe-sensoru "Heading Link")
+*  [Ultrasonic Sensör Montaj Aparatı Tip C](https://www.robotistan.com/ultrasonic-sensor-montaj-aparati-tip-c "Heading Link")	
+*  [Yuvalı Renk Algılayıcı Sensör - TCS34725](https://www.robotistan.com/yuvali-renk-algilayici-sensor-tcs34725 "Heading Link")	
+*  [TTP223 Tekli Dokunmatik Anahtar- 1 Way Touch Switch](https://www.robotistan.com/ttp223-tekli-dokunmatik-anahtar-1-way-touch-switch "Heading Link")	
+*  [ESP8266 Ekonomik Wifi Serial Transceiver Module](https://www.robotistan.com/esp8266-ekonomik-wifi-serial-transceiver-module "Heading Link")
+*  [28 BYJ-48 Redüktörlü Step Motor ve ULN2003A Step Motor Sürücü Kartı](https://www.robotistan.com/28-byj-48-reduktorlu-step-motor-ve-uln2003a-step-motor-surucu-karti "Heading Link")
+*  [Yanıcı Gaz ve Sigara Dumanı Sensör Kartı - MQ-2](https://www.robotistan.com/yanici-gaz-ve-sigara-dumani-sensor-karti-mq-2 "Heading Link")
+*  [4x20 LCD Ekran, Mavi Üzerine Beyaz](https://www.robotistan.com/20x4-lcd-ekran-mavi "Heading Link")	
+*  [IR Alıcı Verici Kumanda Seti](https://www.robotistan.com/ir-alici-verici-kumanda-seti-ir-receiver-module-wireless-remote-control-k "Heading Link") 
+*  [HC05 Bluetooth-Serial Modül Kartı](https://www.robotistan.com/hc05-bluetooth-serial-modul-karti-hc05-bluetooth-to-serial-port-module-br "Heading Link")	
+*  [HC-SR501 Ayarlanabilir IR Hareket Algılama Sensörü - Pir](https://www.robotistan.com/hc-sr501-ayarlanabilir-ir-hareket-algilama-sensoru-pir "Heading Link")	
+*  [DC Motor ve Pervane (3-6 V)](https://www.robotistan.com/dc-motor-ve-pervane-3-6-v "Heading Link")	
+*  [L298N Voltaj Regulatörlü Çift Motor Sürücü Kartı(Kırmızı PCB)](https://www.robotistan.com/l298n-voltaj-regulatorlu-cift-motor-surucu-karti "Heading Link")	
+*  [100 nF Seramik Kondansatör Paketi - 10 Adet](https://www.robotistan.com/100nf-seramik-kondansator-paketi-10-adet "Heading Link")
+*  [100 uF 16 V Kondansatör](https://www.robotistan.com/16v-100uf-kondansator-paketi-10-adet "Heading Link")
+*  [100 pF Seramik Kondansatör Paketi - 10 Adet](https://www.robotistan.com/100pf-seramik-kondansator-paketi-10-adet "Heading Link")
+*  [4.7 uF 16 V Kondansatör](https://www.robotistan.com/16v-47-uf-kondansator-paketi-10-adet "Heading Link")
+*  [330 uF 16 V Elektrolit Kondansatör](https://www.robotistan.com/330uf-16v-elektrolit-kondansator "Heading Link")
+*  [470 uF 16 V Kondansatör](https://www.robotistan.com/16v-470uf-kondansator-paketi-10-adet "Heading Link")
+*  [47 uF 25 V Kondansatör](https://www.robotistan.com/47-uf-25-v-kondansator-paketi "Heading Link")
+*  [1N4007 - 1000 V 1 A Aksiyel Tipli Diyot Paketi - 10 Adet](https://www.robotistan.com/1n4007-1000v-1a-aksiyel-tipli-diyot-paketi-10-adet "Heading Link")	
+*  [Tower Pro SG90 RC Mini (9gr) Servo Motor](https://www.robotistan.com/tower-pro-sg90-rc-mini-servo-motor "Heading Link")	
+*  [Pleksi Robot Kol - Arduino Uyumlu](https://www.robotistan.com/pleksi-robot-kol-arduino-uyumlu "Heading Link")
+*  [2WD Çok Amaçlı Mobil Robot Platformu](https://www.robotistan.com/2wd-cok-amacli-mobil-robot-platformu "Heading Link")	
+*  [TCRT5000 Kızılötesi Sensör](https://www.robotistan.com/tcrt5000-kizilotesi-sensor "Heading Link")
+*  [8x8 Ortak Katot Dot Matrix - KPM-2088 ASRND](https://www.robotistan.com/8x8-dot-matrix-kpm-2088-asrnd "Heading Link")	
+*  [Manyetik Kapı Alarm Sensörü](https://www.robotistan.com/manyetik-kapi-alarm-sensoru "Heading Link")
+*  [12x12 cm Delikli (Bakır) Pertinaks Tek Yüzlü](https://www.robotistan.com/12x12-delikli-pertinaks "Heading Link")
+*  [Krokodil Kablo](https://www.robotistan.com/krokodil-kablo-paketi-5-adet "Heading Link")
+*  [10x20 cm Bakır Plaket - FR2](https://www.robotistan.com/10x20-bakir-plaket "Heading Link")	
+*  [50 mm M3 Metal Dişi-Erkek Aralayıcı- (Standoff)](https://www.robotistan.com/50mm-m3-metal-disi-erkek-aralayici-standoff "Heading Link")	
+*  [30 mm M3 Metal Dişi-Erkek Aralayıcı (Standoff)](https://www.robotistan.com/30mm-m3-metal-disi-erkek-aralayici-standoff-paketi-4-adet "Heading Link")	
+*  [15 mm M3 Metal Dişi-Erkek Aralayıcı (Standoff)](https://www.robotistan.com/15mm-m3-metal-disi-erkek-aralayici-standoff-paketi-4-adet "Heading Link")	
+*  [5 mm M3 Metal Dişi-Dişi Aralayıcı (Standoff)](https://www.robotistan.com/5mm-m3-metal-disi-disi-aralayici-standoff-paketi-4-adet "Heading Link")
+*  [M3 Somun - 10 Adet](https://www.robotistan.com/m3-somun-50-adet "Heading Link")
+*  [M3 10 mm YSB Yıldız Silindirik Baş Metrik Vida - 10 Adet](https://www.robotistan.com/m3-10mm-ysb-yildiz-silindirik-bas-metrik-vida-10-adet "Heading Link")	
+*  [4'lü Çizgi İzleyen Sensör Seti - 4 Way Tracking Module](https://www.robotistan.com/4lu-cizgi-izleyen-sensor-seti-4-way-tracking-module "Heading Link")
+*  [HC-SR501 Ayarlanabilir IR Hareket Algılama Sensörü - Pir](https://www.robotistan.com/hc-sr501-ayarlanabilir-ir-hareket-algilama-sensoru-pir "Heading Link")
+*  [1N4001 - 50 V 1 A Aksiyel Tipli Diyot Paketi - 10 Adet](https://www.robotistan.com/1n4001-50v-1a-aksiyel-tipli-diyot-paketi-10-adet "Heading Link")
+*  [Reed Röle Kartı (Reed Relay) - 4 Pinli](https://www.robotistan.com/reed-role-karti-reed-relay "Heading Link")	
+*  [GP Recyko 9 V 200 mAh Şarjlı Pil](https://www.robotistan.com/gp-recyko-9v-200-mah-sarjli-pil "Heading Link")
+*  [Organize Kutu 14 Bölmeli](https://www.robotistan.com/power-organizer-14-malzeme-kutusu "Heading Link")
+
 
 
 
