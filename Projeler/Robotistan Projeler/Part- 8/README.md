@@ -1,2 +1,3 @@
-# What We'll Learn
--  To learn the working logic of Joystick, Motor drivers and DC motors, to understand the working logic of geared, non-reducer, servo and stepper motors and to develop projects using Arduino IDE and UNO.
+# Öğreneceklerimiz
+
+-  Joystick, Motor sürücüleri ve DC motorların çalışma mantığını öğrenmek, dişli, redüktörsüz, servo ve step motorların çalışma mantığını anlamak ve Arduino IDE ve UNO kullanarak proje geliştirmeyi hedeflemektedir.
