@@ -1,4 +1,4 @@
-# What We'll Learn
--  Robot arms are among the technologies frequently used in the machinery industry. It is frequently used for purposes such as carrying heavy materials that are not sufficient for manpower and placing them in the relevant area, and performing sensitive works in places that require fine workmanship with smaller robot arms. We will understand the working logic of the robot arms by using the Robot arm platform and servo motors in the set, and we will install the robot arm using the servo motors in the set. 
+# Öğreneceklerimiz
 
+-  Robot kollar, makine endüstrisinde sıklıkla kullanılan teknolojiler arasında yer almaktadır. İnsan gücünün yetmediği ağır malzemelerin taşınması ve ilgili alana yerleştirilmesi, ince işçilik gerektiren yerlerde daha küçük robot kolları ile hassas işlerin yapılması gibi amaçlarla sıklıkla kullanılmaktadır. Set içerisinde bulunan Robot kol platformu ve servo motorları kullanarak robot kollarının çalışma mantığını anlayacağız ve set içerisindeki servo motorları kullanarak robot kolunun montajını yapacağız. 
 
