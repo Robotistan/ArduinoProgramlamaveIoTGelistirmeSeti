@@ -1,4 +1,3 @@
-# What We'll Learn
--  We will learn to develop a project by understanding the working logic of the SD card module and infrared sensor. We will also learn to write the necessary code lines by using the mobile robot platform that we have installed before and the infrared sensor together, establishing the circuit that detects the line and moves the motors systematically according to the values it detects.
-
+# Öğreneceklerimiz
+-  SD kart modülü ve kızılötesi sensörün çalışma mantığını anlayarak proje geliştirmeyi öğreneceğiz. Ayrıca daha önce kurmuş olduğumuz mobil robot platformu ile infrared sensörü birlikte kullanarak gerekli kod satırlarını yazmayı, çizgiyi algılayan ve algıladığı değerlere göre motorları sistemli bir şekilde hareket ettiren devreyi kurarak öğreneceğiz.<br>
 
